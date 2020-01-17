@@ -11,7 +11,7 @@ public:
 	Student(std::string firstName, std::string lastName, int age, std::string phone);
 	virtual ~Student();
 
-	void OutputIdentity();
-	void OutputAge();
+	virtual void OutputIdentity();
+	virtual void OutputAge();
 };
 
